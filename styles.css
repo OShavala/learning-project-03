@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+#earth {
+    width: 400px;
+    height: 400px;
+    background: url('earth.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: center center; 
+}
+
+#earth:hover {
+    transform: scale(1.2) rotateY(360deg); 
+}
+
+
+
+
